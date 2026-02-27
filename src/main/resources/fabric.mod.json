@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sit1_21",
+  "version": "${version}",
+
+  "name": "SIT1.21",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sit1_21/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
