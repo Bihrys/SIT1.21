@@ -2,22 +2,29 @@
   "schemaVersion": 1,
   "id": "sit1_21",
   "version": "${version}",
-
   "name": "SIT1.21",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/Administrator/SIT1.21"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/sit1_21/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "client": [
+      "bhw.voident.xyz.sit1_21.client.SIT1_21Client"
+    ],
+    "main": [
+      "bhw.voident.xyz.sit1_21.SIT1_21"
+    ]
+  },
+  "mixins": [
+    "sit1_21.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
